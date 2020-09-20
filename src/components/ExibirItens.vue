@@ -34,7 +34,7 @@ export default {
 }
 
 .descricao-itens span:first-child {
-  border-right: 1px solid #797676;
+  border-right: 1px solid #ffffff;
   border-top-left-radius: 10px;
 }
 
@@ -54,7 +54,7 @@ export default {
 }
 
 .lista-itens span:first-child {
-  border-right: 1px solid #4d4c4c;
+  border-right: 1px solid #ffffff;
 }
 
 .lista-itens span {
@@ -69,6 +69,6 @@ export default {
 }
 
 .lista-itens:not(:last-child) span {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ffffff;
 }
 </style>
