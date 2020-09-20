@@ -14,6 +14,8 @@ ___________________
 
  ## Imagens do Projeto:
 
+  [![tela1](https://raw.githubusercontent.com/rickson-simoes/Vue_Wallet/master/imgs_exemplares/img3.png "Aplicativo sem os valores")](https://raw.githubusercontent.com/rickson-simoes/Vue_Wallet/master/imgs_exemplares/img3.png "img3")
+
  [![tela1](https://raw.githubusercontent.com/rickson-simoes/Vue_Wallet/master/imgs_exemplares/img1.png "Aplicativo com os valores")](https://raw.githubusercontent.com/rickson-simoes/Vue_Wallet/master/imgs_exemplares/img1.png "img1")
 
  [![tela2](https://raw.githubusercontent.com/rickson-simoes/Vue_Wallet/master/imgs_exemplares/img2.png "Erro ao não digitar nada")](https://raw.githubusercontent.com/rickson-simoes/Vue_Wallet/master/imgs_exemplares/img2.png "img2")
