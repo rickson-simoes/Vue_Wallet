@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #9a6d6d url('../assets/wallet.svg') no-repeat 83% top; 
+  font-family: 'Josefin Slab', serif;
+  -webkit-font-smoothing: antialiased;
+  color: #f1efef;
+  font-size: 1.5rem;
+  display:flex;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Josefin Slab', serif;
+}
