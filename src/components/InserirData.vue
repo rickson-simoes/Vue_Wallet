@@ -1,18 +1,24 @@
 <template>
   <div class='input-valor-descricao'>
-    <input type='text' placeholder="Descrição..."/>
-    <input type='number' placeholder="Valor" />
-    <button> Enviar </button>
+    <input type='text' placeholder="Descrição..." v-model='descricao'/>
+    <input type='number' placeholder="Valor" v-model='valor'/>
+    <button @click="$emit('enviardados', { descricao, valor } )"> Enviar </button>
   </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      descricao: '',
+      valor: 0,
+    };
+  },
 
 };
 </script>
 
-<style>
+<style scoped>
   .input-valor-descricao {
     margin-top: 30px;
   }

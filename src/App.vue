@@ -6,9 +6,15 @@
 
           <Carteira :total='total' @enviarVal='total = $event'/>
 
-          <InserirData/>
+          <InserirData @enviardados='recebeDados'/>
 
+          <template v-if='dados.length > 0'>
           <ExibirItens :dados='dados'/>
+          </template>
+
+          <template v-else>
+            <p class='semDadosAdicionados'>Que tal começar a adicionar alguns itens? :)</p>
+          </template>
 
       </div>
   </main>
@@ -23,15 +29,21 @@ export default {
   data() {
     return {
       total: 0,
-      dados: [
-        { descricao: 'teste', valor: 10 },
-      ],
+      dados: [],
     };
   },
   components: {
     Carteira,
     InserirData,
     ExibirItens,
+  },
+  methods: {
+    recebeDados(informacoes) {
+      this.dados.push({
+        descricao: informacoes.descricao,
+        valor: informacoes.valor,
+      });
+    },
   },
 };
 </script>
@@ -51,6 +63,11 @@ export default {
     width: 750px;
     height: auto;
     left: 50px;
+  }
+
+  .semDadosAdicionados{
+    margin-top: 20px;
+    font-weight: 600;
   }
 
 </style>

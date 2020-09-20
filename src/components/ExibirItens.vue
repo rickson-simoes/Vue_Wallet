@@ -22,7 +22,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .exibir-itens {
   margin-top: 30px;
   display: flex;
