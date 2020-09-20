@@ -9,7 +9,7 @@ yarn serve
 ___________________
 
  - Adicionar a quantia de dinheiro que possui.
- - Adicionar os gatos.
+ - Adicionar os gastos.
  - Verificar a atualização instantânea do componente
 
  ## Imagens do Projeto:
