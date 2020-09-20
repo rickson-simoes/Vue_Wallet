@@ -43,6 +43,8 @@ export default {
         descricao: informacoes.descricao,
         valor: informacoes.valor,
       });
+
+      this.total -= informacoes.valor;
     },
   },
 };
