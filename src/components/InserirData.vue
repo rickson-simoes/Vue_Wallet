@@ -21,11 +21,11 @@ export default {
 <style scoped>
   .input-valor-descricao {
     margin-top: 30px;
+    display: flex;
   }
 
   .input-valor-descricao input {
     border-style: none;
-    margin-bottom: 10px;
     height: 28px;
     width: 250px;
     padding: 10px;
@@ -38,7 +38,7 @@ export default {
   .input-valor-descricao button {
     border-style: none;
     height: 28px;
-    width: 65px;
+    width: 85px;
     border-radius: 2px;
     color: white;
     background: #9293a5;
